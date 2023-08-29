@@ -5,7 +5,6 @@ import { Entypo } from "@expo/vector-icons";
 import { FontAwesome5, MaterialIcons } from "@expo/vector-icons";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigation } from "@react-navigation/native";
-import RazorpayCheckout from "react-native-razorpay";
 import { cleanCart } from "../redux/cardReducer";
 import { UserType } from "../context/UserContext";
 import AsyncStorage from "@react-native-async-storage/async-storage";
